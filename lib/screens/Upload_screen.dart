@@ -225,6 +225,7 @@ class _UploadScreenState extends State<UploadScreen> {
                                       'Post Uploaded', context);
                                   providerr.progressindic(false);
                                 }).onError((error, stackTrace) {
+                                  print(error.toString());
                                   GeneralUtils().showerrormessage(
                                       error.toString(), context);
                                   providerr.progressindic(false);
