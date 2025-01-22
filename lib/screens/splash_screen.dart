@@ -30,7 +30,10 @@ class _SplashScreenState extends State<SplashScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              child: const Center(child: Text("Splash")),
+              child: const Center(
+                  child: Image(
+                      image: NetworkImage(
+                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT79qjfrOCMo5ZDWRG49P_M5m5IJC-N1UVOqw&s'))),
             ),
           ],
         ));
